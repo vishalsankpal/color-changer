@@ -44,7 +44,7 @@ const ProductListing = () => {
       <h2>Hello it is {fakeData ? "fake" : "not fake"}</h2>
       <button onClick={parentClick}>Fake click1</button>
       <button onClick={ParentChildClick}>Fake click2</button>
-      <div>
+      <div className="row">
         {products?.map((product) => (
           <Product
             faketext={fakeData2}

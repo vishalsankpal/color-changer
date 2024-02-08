@@ -15,8 +15,8 @@ const Product = ({
     <div key={id} style={{ backgroundColor: bgColor }}>
       <h2>it is child Component {faketext ? "right" : "wrong"}</h2>
       <img src={image} alt={title} />
-      <h1>{title}</h1>
-      <p>{description}</p>
+      <h1 className="product-title">{title}</h1>
+      <p className="info">{description}</p>
       <p>{price}</p>
       <input
         type="color"
